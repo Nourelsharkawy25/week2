@@ -1,10 +1,10 @@
 # week2
 1. primitive types and reference types
-	 - Primitive values are atomic pieces of data while reference values are objects that might consist of multiple values
-	 - we have 2 locations to store data named stack and heap
-	 - stack store static data whose size is fixed like
-		 - primitive values (built-in data types)
-		 - reference values to objects which created in heap
+	- Primitive values are atomic pieces of data while reference values are objects that might consist of multiple values
+	- we have 2 locations to store data named stack and heap
+	- stack store static data whose size is fixed like
+		- primitive values (built-in data types)
+		- reference values to objects which created in heap
 	- but there is very important trick **strings are primitive data type** but it converts to objects to use methods 
 	- A reference value allows you to add, change, or delete properties
 	  so we should store objects with const but primitive don't have properties.
