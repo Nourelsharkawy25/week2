@@ -8,7 +8,7 @@
 	- but there is very important trick **strings are primitive data type** but it converts to objects to use methods 
 	- A reference value allows you to add, change, or delete properties
 	  so we should store objects with const but primitive don't have properties.
-	  - in copying : if you assign a primitive value to another variable , js will locate another location to variable and store this value in it separately and change of one of them don't affect other , on the other hand , if it reference type it will create a reference so that both variables refer to the same object and affect each other.
+	- in copying : if you assign a primitive value to another variable , js will locate another location to variable and store this value in it separately and change of one of them don't affect other , on the other hand , if it reference type it will create a reference so that both variables refer to the same object and affect each other.
 ---------------------
 2. Function Declaration and Function Expression
 	1. first, we discuss code function declaration like
@@ -21,7 +21,7 @@
 		 - function in the function declaration can be accessed before and after the function definition. so , it hoisted to top at compile time.
 		 - it looks for methods at "initialization stage".
 	1. function exp :
-		 - `` let x= function(paramA) {  // Set of statements}
+		 - `` let x= function(paramA) {  // Set of statements}``
 		 - Function expressions load and execute only when the program interpreter reaches the line of code.
 		 - Omitting a name is allowed for Function Expressions.
 		 - Not hoisted; must be defined before use
